@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai&family=Roboto+Slab:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai&family=Roboto+Slab:wght@500&family=Rubik+Bubbles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&family=Rubik+Bubbles&display=swap');
+
+
+body {
+    background-image:url(https://cdn.discordapp.com/attachments/977216444465045505/1181453695012053023/giphy.gif?ex=65811d7f&is=656ea87f&hm=094f1d5e2c3ca5facb40a244dad5025961911e6452ff6c904391fb52fbee4fc7&);
+    background-size: cover;
+}
+
+table {
+    font-family: 'Noto Sans Thai', sans-serif;
+    color: aliceblue;
+}
+
+h1 {
+    font-family: 'Paytone One';
+    color: rgb(255, 255, 255);
+    max-width: 300px;
+    border: 3px solid red;
+    white-space: pre-line;
+}
+
+.fage {
+    border-radius: 10px;
+}
+
+#reset {
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: rgb(255, 183, 90);
+}
+
+#submit {
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: rgb(255, 183, 90);
+}
