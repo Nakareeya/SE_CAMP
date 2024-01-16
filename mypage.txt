@@ -1,0 +1,39 @@
+mypage
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+</head>
+<body>
+    <div class="box">
+        <div>
+            <center>
+            <h1>กรอกแม่สูตรคูณที่ต้องการ</h1>
+                <form method="post" action="/my-route">
+                    @csrf
+                    <input class="input" type="text" name="myinput">
+                    <button class="submit" type="submit">Submit</button>
+                </form>
+            </center>
+        </div>
+    </div>
+</body>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai&family=Roboto+Slab:wght@500&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai&family=Roboto+Slab:wght@500&family=Rubik+Bubbles&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Paytone+One&family=Rubik+Bubbles&display=swap');
+    body {
+        background-image:url(https://media3.giphy.com/media/JRPT2DOOML5CoVNaDK/giphy.gif?cid=ecf05e477uzvekzufnguu6366gagh3x43t9vmmmwzhagw1na&ep=v1_gifs_search&rid=giphy.gif&ct=g);
+        background-size: cover;
+    }
+    .input {
+        border-radius: 10px;
+    }
+    .submit {
+        border-radius: 10px;
+        background-color: rgb(255, 183, 90);
+    }
+</style>
+</html>

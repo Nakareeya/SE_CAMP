@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai&family=Roboto+Slab:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai&family=Roboto+Slab:wght@500&family=Rubik+Bubbles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&family=Rubik+Bubbles&display=swap');
+
+
+body {
+    background-image:url(https://media.discordapp.net/attachments/977216444465045505/1181196403863715880/Pngtreeflying_spaceship_rocket_astronaut_greeting_1200125.jpg?ex=65802de0&is=656db8e0&hm=a76b5e3f116b096605aad45d8255bbda766bf76c4c15f7b627c5183c73cb1f5c&=&format=webp&width=1413&height=662);
+    background-size: cover;
+}
+
+table {
+    font-family: 'Noto Sans Thai', sans-serif;
+    color: aliceblue;
+}
+
+.vv {
+    font-family: 'Paytone One';
+    color: rgb(255, 213, 0);
+}
+
+.fage {
+    border-radius: 10px;
+}
+
+#reset {
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: rgb(255, 183, 90);
+}
+
+#submit {
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: rgb(255, 183, 90);
+}
