@@ -1,0 +1,39 @@
+myroute
+<html>
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <center>
+            <h1>ตารางสูตรคูณแม่ {{ $myinput }} </h1>
+            <div class="box">
+                <div>
+                    <?php
+                    for($i = 1 ; $i <= 24 ; $i++){
+                    echo "{$myinput} x {$i} = " . $myinput * $i . '<br/>';
+                    }
+                    ?>
+                </div>
+            </div>
+        </center>
+    </body>
+    <style>
+        .box{
+            width: 400px;
+            height: 505px;
+            color: rgb(255, 255, 255);
+            background-color: rgb(255, 183, 90);
+            text-align: center;
+            padding-top: 10px;
+            margin: 50px 25px;
+        }
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai&family=Roboto+Slab:wght@500&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai&family=Roboto+Slab:wght@500&family=Rubik+Bubbles&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Paytone+One&family=Rubik+Bubbles&display=swap');
+        body {
+            background-image:url(https://media2.giphy.com/media/UU2E4pmlIWjBZt03ne/giphy.gif?cid=ecf05e477p3fgkznhegvewyvkfopzjg8h6j206se58ecru6b&ep=v1_gifs_related&rid=giphy.gif&ct=g);
+            background-size: cover;
+        }
+    </style>
+    </html>
